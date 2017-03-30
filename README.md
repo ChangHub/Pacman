@@ -1,10 +1,28 @@
+# Pacman
+
+Pacman is a flat and responsive design theme for [Hexo](http://hexo.io).
+
+**Pacman requires Hexo 2.4.5 and above.** 
+### Enable
+Modify `theme` setting in blog folder` _config.yml` to `pacman`.
+### Update
+```
+cd themes/pacman
+git pull
+```
+**please backup your `_config.yml` file before update.** 
+### Configuration
+
+Modify settings in  `/themes/pacman/_config.yml`.
+
+```
 ##### Menu
 menu:
-  主页: /
-  归档: /archives
-  标签: /tags
-  分类: /categories
-  关于: /about
+  Home: /
+  Archives: /archives
+  Tags: /tags
+  Categories: /categories
+  About: /about
 ## you can create `tags` and `categories` folders in `../source`.
 ## And create a `index.md` file in each of them.
 ## set `front-matter`as
@@ -103,5 +121,6 @@ google_cse:
 ## layout: search 
 ## title: search
 ## ---
-baidu_search: http://zn.baidu.com/
-enable: true
+```
+
+
