@@ -115,11 +115,6 @@ google_cse:
   enable: false
   cx:  ## e.g. 000561263943549425496:mrzrm0gr4kg your Custom Search ID.
 ## https://www.google.com/cse/
-```
-
-
-
-
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/A-limon/pacman/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+``
 
 
