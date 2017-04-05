@@ -84,7 +84,8 @@ jiathis:
 
 #### Baidu Analytics
 
-baidu_analytics: true
+baidu_analytics: 
+  enable: true
 #### Analytics
 google_analytics:
   enable: false
