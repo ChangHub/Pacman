@@ -73,8 +73,12 @@ author:
 
 #### Comment
 duoshuo: 
-  enable: true  ## duoshuo.com
+  enable: false  ## duoshuo.com
   short_name:    ## duoshuo short name.
+
+youyan:
+  enable: true
+  id: 2130494
 
 #### Share button
 jiathis:
@@ -82,10 +86,6 @@ jiathis:
   id:    ## e.g. 1501277 your jiathis ID. 
   tsina: ## e.g. 1664838973 Your weibo id,It will be used in share button.
 
-#### Baidu Analytics
-
-baidu_analytics: 
-  enable: true
 #### Analytics
 google_analytics:
   enable: false
@@ -93,6 +93,9 @@ google_analytics:
   site: ## e.g. yangjian.me your google analytics site or set the value as auto.
 ## You MUST upgrade to Universal Analytics first!
 ## https://developers.google.com/analytics/devguides/collection/upgrade/?hl=zh_CN
+
+baidu_analytics: 
+  enable: true
 
 #### Custom Search
 google_cse: 
@@ -104,5 +107,3 @@ google_cse:
 ## layout: search 
 ## title: search
 ## ---
-baidu_search: http://zn.baidu.com/
-enable: true
