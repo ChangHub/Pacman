@@ -107,3 +107,7 @@ google_cse:
 ## layout: search 
 ## title: search
 ## ---
+
+cnzz_tongji:
+  enable: true
+  siteid: 1261856150   ## your cnzz tongji site id
