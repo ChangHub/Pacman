@@ -21,6 +21,11 @@
 						<label>Search</label>
 						<input type="text" id="search" autocomplete="off" name="q" maxlength="20" placeholder="<%= __('search') %>" />
 					</form>
+					<% } else if	(theme.baidu_cse&&theme.baidu_cse.enable){ %>
+					<form class="search" action="<%- config.root %>search/index.html" method="get" accept-charset="utf-8">
+						<label>Search</label>
+						<input type="text" id="search" autocomplete="off" name="q" maxlength="20" placeholder="<%= __('search') %>" />
+					</form>
 					<% } else { %>
 					<form class="search" action="//google.com/search" method="get" accept-charset="utf-8">
 						<label>Search</label>

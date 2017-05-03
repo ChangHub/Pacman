@@ -108,6 +108,10 @@ google_cse:
 ## title: search
 ## ---
 
+baidu_cse:
+  enable: true
+
+### tongji
 cnzz_tongji:
   enable: true
   siteid: 1261856150   ## your cnzz tongji site id
